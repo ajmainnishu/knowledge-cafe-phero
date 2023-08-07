@@ -67,3 +67,13 @@
     border: 0.75px rgba(17, 17, 17, 0.60) solid;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 500px) {
+    .article {
+        text-align: center;
+    }
+    .article-info-container {
+        flex-direction: column;
+    }
+  }
