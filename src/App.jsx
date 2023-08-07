@@ -6,8 +6,11 @@ import Header from './components/Header/Header'
 function App() {
   return (
     <div>
+        {/* header section */}
         <Header></Header>
+        {/* main section */}
         <Blogs></Blogs>
+        {/* question answer section */}
         <Blog></Blog>
     </div>
   )

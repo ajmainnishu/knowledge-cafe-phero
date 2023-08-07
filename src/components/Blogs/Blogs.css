@@ -8,9 +8,12 @@
 }
 
 
+
+
+/* media query for mobile */
 @media screen and (max-width: 500px) {
     .blogs-container {
       display: flex;
       flex-direction: column-reverse;
     }
-  }
+}

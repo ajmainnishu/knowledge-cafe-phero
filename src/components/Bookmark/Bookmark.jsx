@@ -3,6 +3,7 @@ import './Bookmark.css'
 const Bookmark = (props) => {
     const times = props.times;
     const bookmarks = props.bookmarks;
+    // spent time calculation
     let readTime = 0
     for (let time of times) {
         readTime += time;
