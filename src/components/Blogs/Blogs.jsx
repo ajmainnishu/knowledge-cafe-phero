@@ -3,7 +3,7 @@ import './Blogs.css'
 import { useEffect } from 'react';
 import Articles from '../Articles/Articles';
 import Bookmark from '../Bookmark/Bookmark';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Blogs = () => {

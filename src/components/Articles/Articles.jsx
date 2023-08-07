@@ -1,8 +1,7 @@
 import './Articles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 const Articles = (props) => {
     const {title, cover_image, read_time, publish_date, author_name, author_image} = props.blogs;
