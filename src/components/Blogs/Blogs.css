@@ -1,0 +1,7 @@
+.blogs-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.article-container {
+    padding: 32px 24px;
+}
