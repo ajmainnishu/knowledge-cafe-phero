@@ -55,6 +55,8 @@
     color: #6047EC;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
 }
 .article hr {
     border: 0.50px rgba(17, 17, 17, 0.10) solid;

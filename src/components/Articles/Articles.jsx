@@ -4,6 +4,8 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Articles = (props) => {
     const {title, cover_image, read_time, publish_date, author_name, author_image} = props.blogs;
+    const totalTime = props.totalTime;
+    const totalBookmark = props.totalBookmark;
     return (
         <div className='article'>
             <img src={cover_image} alt="cover image" />
@@ -16,12 +18,12 @@ const Articles = (props) => {
                     </div>
                 </div>
                 <div className='article-read'>
-                    <p>{read_time} <FontAwesomeIcon style={{cursor: 'pointer'}} icon={faBookmark} /></p>
+                    <p>{read_time} min read &nbsp; <FontAwesomeIcon onClick={() => totalBookmark(title)} style={{cursor: 'pointer'}} icon={faBookmark} /></p>
                 </div>
             </div>
             <h2>{title}</h2>
             <p className='article-hase'>#beginners &nbsp;&nbsp; #programming</p>
-            <a href="">Mark as read</a>
+            <a onClick={() => totalTime(read_time)}>Mark as read</a>
             <hr />
         </div>
     );
